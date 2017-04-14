@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function onTotalBcAvailable(XMLHttpResp) {
-
+  console.log(XMLHttpResp);
 }
 
 function callAjax(url, cb, verb){
