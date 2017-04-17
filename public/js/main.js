@@ -1,6 +1,6 @@
 const MAX_NUM_BC = 20999999.9769, // https://en.bitcoin.it/wiki/Controlled_supply#Projected_Bitcoins_Long_Term
       FINAL_DATE = new Date(2140, 0),
-      API_URL_TOTAL_BC = 'https://blockchain.info/q/totalbc';
+      API_URL_TOTAL_BC = 'https://blockchain.info/q/totalbc?cors=true';
 
 document.addEventListener("DOMContentLoaded", function() {
   callAjax(API_URL_TOTAL_BC, onTotalBcAvailable);
