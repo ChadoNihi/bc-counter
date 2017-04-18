@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function onTotalBcAvailable(XMLHttpResp) {
-  console.log(XMLHttpResp);
+  const totalBC = XMLHttpResp / 100000000;
+
+  
 }
 
 function callAjax(url, cb, verb){
